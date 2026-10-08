@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" width="400" height="280">
+  <rect width="400" height="280" fill="#1C1C1C"/>
+  <path d="M60 200 C110 200,150 60,210 60 C250 60,280 130,380 90" stroke="#CC1E1E" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <text x="200" y="155" font-family="Montserrat,sans-serif" font-size="13" font-weight="700" fill="rgba(255,255,255,0.2)" text-anchor="middle" text-transform="uppercase" letter-spacing="3">MAF SHOES LIMITED</text>
+</svg>

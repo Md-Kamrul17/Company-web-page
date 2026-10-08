@@ -1,0 +1,41 @@
+=====================================================
+  MAF Shoes Limited — সঠিক URL গাইড
+=====================================================
+
+আপনার স্ক্রিনশট দেখে বোঝা যাচ্ছে:
+- Browser-এ দেখাচ্ছে: http://localhost/maf-website/...
+- তাই SITE_URL = http://localhost/maf-website
+
+=====================================================
+  সঠিক URLs (এগুলো browser-এ type করুন)
+=====================================================
+
+🏠 Homepage:
+   http://localhost/maf-website/
+
+👟 Products:
+   http://localhost/maf-website/pages/products.php
+
+📰 News:
+   http://localhost/maf-website/pages/media/news.php
+
+💼 Jobs:
+   http://localhost/maf-website/pages/jobs.php
+
+📞 Contact:
+   http://localhost/maf-website/pages/contact.php
+
+🔐 ADMIN LOGIN (সঠিক URL):
+   http://localhost/maf-website/admin/login.php
+
+   ⚠️  https://localhost/admin/login.php — এটা ভুল!
+   ✅  http://localhost/maf-website/admin/login.php — এটা সঠিক
+
+   Email: admin@mafshoes.com
+   Password: MAF@Admin2024
+
+=====================================================
+  CSS কাজ না করলে config/db.php খুলুন এবং দেখুন:
+  define('SITE_URL', 'http://localhost/maf-website');
+  এই লাইনটি সঠিক আছে কিনা
+=====================================================
